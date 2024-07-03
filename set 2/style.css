@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-color:rgba(157, 106, 206, 0.733);
+    height: 500px;
+}
+#product{
+    height: 400px;
+    width: 300px;
+    background-image: url(https://veirdo.in/cdn/shop/files/b_0119493a-9927-4550-8323-baefe5f625c0.jpg?v=1716202861);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    /* background shorthand */
+    /* background: gray url(https://veirdo.in/cdn/shop/files/b_0119493a-9927-4550-8323-baefe5f625c0.jpg?v=1716202861) no-repea center; */
+}
