@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 5px;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 50px;
+    padding: 5px;
+}
+header{
+    background-color:  blanchedalmond;
+}
+#second{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    /* border-radius: 50%; */
+    margin: 10px;
+    display: inline-block;
+}
+#container{
+    border: 3px solid;
+    margin: 5px;
+}
+#box2{
+    z-index: 2;
+    background-color: blue;
+    position: absolute;
+}
+#box4{
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 40px;
+    right: 5px;
+}
+footer{
+    position: fixed;
+    bottom: 3px;
+    margin: 3px;
+    background-color:  blanchedalmond;
+}
