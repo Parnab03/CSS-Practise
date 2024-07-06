@@ -1,0 +1,30 @@
+.container{   
+    width: 80%;
+    height: 25px;
+    background-color: aquamarine;
+    border: 2px solid;
+    border-radius: 20px;
+    position: relative;
+    left: 9%;
+}
+.bar{
+    background-color: burlywood;
+    height: 100%;
+    /* width: 50%; */
+    border-radius: 20px;
+    animation: animate_progress 3s ease-in-out 0s ;
+}
+@keyframes animate_progress {
+    0%{
+        width: 1%;
+    }
+    90%{
+        width: 95%;
+    }
+    95%{
+        width: 90%;
+    }
+    100%{
+        width: 100%;
+    }
+}
